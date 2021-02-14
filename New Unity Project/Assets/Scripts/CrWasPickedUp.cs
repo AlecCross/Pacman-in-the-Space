@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CrWasPickedUp : MonoBehaviour
 {
-    void OnCollisionEnter(Collision myCollision) {
+    void OnTriggerEnter(Collider collider) {
         // определение столкновения с двумя разноименными объектами
-        if (myCollision.gameObject.name == "Player") {  
+        if (collider.gameObject.name == "Player") {  
             Destroy(gameObject);
         }
     }

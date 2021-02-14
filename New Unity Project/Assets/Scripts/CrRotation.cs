@@ -15,7 +15,7 @@ public class CrRotation : MonoBehaviour
     {
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, degree, transform.rotation.eulerAngles.z);
         if(degree<180)
-        degree+=45;
+        degree+=2;
         else
         degree=0;
         
