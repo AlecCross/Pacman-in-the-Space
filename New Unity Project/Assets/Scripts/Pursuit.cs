@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Pursuit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    private void Awake(){
+        rigidbody = GetComponent<Rigidbody>();
+        GameObject player = GameObject.Find("Player");
     }
 
-    // Update is called once per frame
     void Update()
     {
         float speed = 2;
@@ -18,7 +16,8 @@ public class Pursuit : MonoBehaviour
         float step = speed  * Time.deltaTime; // calculate distance to move
         
         
-        transform.position = Vector3.MoveTowards(transform.position, GameObject.Find("Player").transform.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, 
+        player.transform.position, step);
 
         // Check if the position of the cube and sphere are approximately equal.
         // if (Vector3.Distance(transform.position, target.position) < 0.001f)

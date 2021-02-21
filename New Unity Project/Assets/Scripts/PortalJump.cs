@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PortalJump : MonoBehaviour
 {
-    
+    public bool TestItem = true;
 
      void OnTriggerEnter(Collider collider){
        if (collider.gameObject.name == "Portal") {  

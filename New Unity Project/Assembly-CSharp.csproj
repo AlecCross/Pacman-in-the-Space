@@ -49,7 +49,8 @@
      <Compile Include="Assets\Scripts\Collision_Enemy_Player.cs" />
      <Compile Include="Assets\Scripts\CrRotation.cs" />
      <Compile Include="Assets\Scripts\CrWasPickedUp.cs" />
-     <Compile Include="Assets\Scripts\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\PlayerJump.cs" />
+     <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PortalJump.cs" />
      <Compile Include="Assets\Scripts\Pursuit.cs" />
      <Compile Include="Assets\Scripts\RotationCrystal.cs" />
