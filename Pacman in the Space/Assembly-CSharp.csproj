@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GhostSpawner.cs" />
      <Compile Include="Assets\HealthStat.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerJump.cs" />
      <Compile Include="Assets\Scripts\PlayerScripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\PortalJump.cs" />
+     <Compile Include="Assets\Scripts\SpawnEnemy.cs" />
      <Compile Include="Assets\Scripts\ZonesScripts\ZoneHealer.cs" />
      <Compile Include="Assets\Scripts\ZonesScripts\ZoneTrap.cs" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />

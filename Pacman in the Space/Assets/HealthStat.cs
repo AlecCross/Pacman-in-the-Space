@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class HealthStat : MonoBehaviour
 {
-    public double hp;
+    public double hp; 
     public bool regeneration;
     public double regnStep;
 
     // Start is called before the first frame update
     void Start()
     {
-        hp = 95;
+        hp = 100;
         if(gameObject.name!="Player"){
             regeneration = true;
             print(gameObject.name+" Присвоен статус регенерация");
