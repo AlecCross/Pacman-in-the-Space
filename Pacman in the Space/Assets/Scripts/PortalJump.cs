@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PortalJump : MonoBehaviour
 {
-    public bool TestItem = true;
-
      void OnTriggerEnter(Collider collider){
        if (collider.gameObject.name == "Portal") {  
             gameObject.transform.position = GameObject.Find("Portal2").transform.position+ new Vector3(1, 0, 0);

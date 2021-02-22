@@ -5,9 +5,8 @@ using UnityEngine;
 public class CheckBoxKiller : MonoBehaviour
 {            
        void OnTriggerEnter(Collider collider){
-       print("Зашло в метод OnCollisionEnter");
        if (collider.gameObject.tag == "GhostTag") {  
-            Destroy(GameObject.Find(collider.gameObject.name));
+            GameObject.Find(collider.gameObject.name).SetActive(false);
         }
    }
 }

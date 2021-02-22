@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A0590241-EC89-9436-F11D-51760213F2B6}</ProjectGuid>
+    <ProjectGuid>{D5BF28E2-5FCC-257E-ECED-094C009629FF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor-firstpass</AssemblyName>
@@ -256,8 +256,11 @@
  <Reference Include="UnityEditor.WebGL.Extensions">
  <HintPath>D:/UnityStep/2019.4.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/UnityStep/2019.4.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="nunit.framework">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>D:/UnityStep/2019.4.19f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -614,42 +617,42 @@
  <HintPath>D:/UnityStep/2019.4.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>D:/ШАГ/3 семетр/Unity/Meeting1 - Begin/hw1-unity/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>D:/UnityStep/MyProjects/Pacman-in-the-Space/Pacman in the Space/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>
+      <Project>{776885E2-3EF7-BB9F-C020-68935F7A5A2B}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
