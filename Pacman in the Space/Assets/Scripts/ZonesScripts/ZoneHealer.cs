@@ -29,7 +29,14 @@ public class ZoneHealer : MonoBehaviour
                 print(gameObject.name+" Здоров "+hp);
             }
         }
-        if(other.tag=="Damager" && gameObject.name != "Player"){
+        if(other.tag=="Damager"){
+            hp-= Time.deltaTime * 15;
+            print(gameObject.name+" Здоровье "+hp);
+            isRegeneration = false;
+            healthStat.regeneration = isRegeneration;
+            healthStat.hp = hp;
+        }
+        if(other.tag=="Trap" && gameObject.name != "Player"){
             hp-= Time.deltaTime * 15;
             print(gameObject.name+" Здоровье "+hp);
             isRegeneration = false;
@@ -43,7 +50,6 @@ public class ZoneHealer : MonoBehaviour
             healthStat.regeneration = isRegeneration;
         }
     }
-
 
     void Update(){
         if(hp<1){

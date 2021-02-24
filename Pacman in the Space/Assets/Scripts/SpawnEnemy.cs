@@ -8,14 +8,26 @@ public class SpawnEnemy : MonoBehaviour
     GameObject enemyPrefab;
 
     void Start(){
-        spawnGhost();
+        StartCoroutine(Spawn(3));
     }
 
     void spawnGhost(){
         GameObject ghostObj = Instantiate(
-                                        enemyPrefab, 
-                                        new Vector3(0, 0, 0), 
-                                        Quaternion.identity);
+                        enemyPrefab, 
+                        gameObject.transform.position+new Vector3(2,0,0),
+                        //new Vector3(1,5,0), 
+                        Quaternion.identity);
+        print("Заспавнило " + ghostObj.name);
     }
+
+    public IEnumerator Spawn(int count){
+        yield return new WaitForSeconds(1f);
+        for(int i=0; i<count; i++){
+            spawnGhost();
+            yield return new WaitForSeconds(2f);
+        }
+    }
+
+
 }
 
